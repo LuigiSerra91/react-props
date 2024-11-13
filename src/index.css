@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+  display: flex;
   width: 80%;
   max-width: 1200px;
   margin: auto;
@@ -31,8 +32,7 @@ header {
 }
 
 main {
-  display: flex;
-  justify-content: center;
+  
   min-height: calc(100vh - 69px);
 }
 
@@ -50,14 +50,11 @@ footer {
   height: 500px;
   background-color: white;
   border-radius: 1rem;
+  margin: 5px;
   img{
     width: 200px;
   }
-
-
-
-
-
+  
 }
 
 .btn {

@@ -1,6 +1,9 @@
 
 export default function Card({ data }) {
     return (
+
+
+        
         <div className="card">
             <img src={data.image} alt="card-blog" />
             <div className="details">
@@ -10,6 +13,8 @@ export default function Card({ data }) {
             </div>
 
         </div>
+        
+        
 
     )
 }

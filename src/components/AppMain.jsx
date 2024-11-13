@@ -2,18 +2,18 @@ import Card from '../components/card/Card.jsx'
 import data from '../data/data.js'
 export default function AppMain() {
 const pageTitle = 'Ill mio blog'
-
+const isTrue = data.filter(post => post.published === true)
 
     return (
         <main>
             <div className="container">
-                <h2>{pageTitle}</h2>
-
-                <section className="cards">
-                    {data.map(post => <Card key={post.id} data={post} />)}
-                </section>
+    
+                        {isTrue.map(post => <Card key={data.id} data={post} />)}
             </div>
+               
         </main>
+
+        
 
     )
 }
