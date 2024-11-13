@@ -1,4 +1,4 @@
-
+import Button from '../Button/Button'
 export default function Card({ data }) {
     return (
 
@@ -9,7 +9,7 @@ export default function Card({ data }) {
             <div className="details">
                 <h3>{data.title}</h3>
                 <p>{data.content}</p>
-                <button className="btn">Leggi di più</button>
+                <Button />
             </div>
 
         </div>
