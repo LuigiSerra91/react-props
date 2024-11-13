@@ -44,3 +44,44 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+.card {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 1rem;
+  img{
+    width: 200px;
+  }
+
+
+
+
+
+}
+
+.btn {
+
+  padding: 10px;
+  background-color: chocolate;
+  color: white;
+  border: 0;
+}
+
+img {
+  width: 400px;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.details {
+  padding: 1rem;
+
+
+
+
+}
+
+p {
+  padding: 1rem 0;
+}
