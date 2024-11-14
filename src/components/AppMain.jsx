@@ -8,7 +8,7 @@ const isTrue = data.filter(post => post.published === true)
         <main>
             <div className="container">
     
-                        {isTrue.map(post => <Card key={data.id} data={post} />)}
+                        {isTrue.map(post => <Card key={post.id} data={post} />)}
             </div>
                
         </main>
